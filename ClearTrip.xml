@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="suite" parallel="tests">
+<parameter name="From" value="Mumbai"/>
+<parameter name="To" value="Bhopal"/>
+<test name="test1">
+<parameter name="browser" value= "firefox" />
+<classes>
+<class name="com.gspann.ClearTripTest">
+</class>
+</classes>
+</test>
+
+<test name="test2">
+<parameter name="browser" value ="chrome" />
+<classes>
+<class name="com.gspann.ClearTripTest">
+</class>
+</classes>
+</test>
+</suite>
